@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>ONS</Name>
+    <ProjectGuid>674c85dc-2c25-41d6-aee3-6f09a37b640e</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ONS</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>ONS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="activiteiten.php" />
+    <Compile Include="admin.php" />
+    <Compile Include="contact.php" />
+    <Compile Include="fotos.php" />
+    <Compile Include="fotoview.php" />
+    <Compile Include="index.php" />
+    <Compile Include="insert.php" />
+    <Compile Include="sponsors.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="images\1702.jpg" />
+    <Content Include="images\AlleeWonen-groot.jpg" />
+    <Content Include="images\cropped-cropped-cropped-beeldmerk.png" />
+    <Content Include="images\image-226033.jpg" />
+    <Content Include="images\logo-cordaid-big.png" />
+    <Content Include="images\logo-facebook.jpg" />
+    <Content Include="images\logo-ons.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logonew.png" />
+    <Content Include="images\ONS_HOME.jpg" />
+    <Content Include="images\Prinsjeshof-Logo-300x175.png" />
+    <Content Include="images\videobanner.png" />
+  </ItemGroup>
+</Project>

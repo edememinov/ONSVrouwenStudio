@@ -1,0 +1,269 @@
+﻿body {
+}
+nav{
+    padding: 50px;
+    background-color : #500B76;
+    text-align : center;
+
+    
+}
+.navlist{
+    display : inline;
+    padding : 8px 24px 8px 24px; 
+    background-color :#00A19C;
+    padding-top : 1%;
+    margin-left : 1%;
+    border-radius: 3%;
+    
+    
+     
+}
+
+.navlist :hover{
+    display : inline;
+    text-align : justify;
+    background-color : #EE7421;
+     
+}
+
+.navigator {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+.navlink{
+    color: white;
+    font : 30px Arial;
+    text-decoration: none;
+}
+
+.logo{
+    float:left;
+    padding: 2% 4%;
+}
+.ons{
+    text-align: center;
+    background-color : #500B76;
+    color : white;
+    font : 60px Arial;
+    font-weight: bold;
+    padding-bottom : 70px
+}
+.top{
+    background-color :#500B76;
+}
+section{
+    padding : 10px;
+    width:25%;
+    float : left;
+}
+
+aside{
+    text-align: center;
+    font : 20px Arial;
+    color : white;
+    background-color: #EE7421;
+    width:45%;
+    float : right;
+}
+.titel{
+    text-align : center;
+}
+
+article{
+    text-align: center;
+    font : 20px Arial;
+    color : white;
+    background-color: #00A19C;
+    width:45%;
+    float : right;
+   margin-top : 2%;
+   margin-bottom : 2%;
+}
+.clearfix {
+  overflow: auto;
+}
+footer{
+    margin-top : 2%;
+    margin-bottom : 2%;
+    clear : both;
+    background-color: #500B76;
+    padding-bottom : 2%;
+    padding-top: 2%;
+    overflow: auto;
+
+}
+.footerlink{
+
+    color: white;
+    font : 20px Arial;
+    text-decoration: none;
+    display: block;
+    text-align : left;
+    
+
+}
+.footerlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left : 40%;
+    margin-top : 3%;
+
+}
+
+.maps{
+    width: 50%;
+    float:right;
+}
+.footnav{
+    float: left;
+    width: 20%;
+    margin-top : 4%;
+}
+.adres{
+    
+    text-align: center;
+    color : white;
+    background-color: #00A19C;
+    width:40%;
+    float : left;
+    margin-bottom : 2%;
+    list-style-type: none !important;
+    padding-right : 5%;
+}
+
+.adresregel{
+    list-style-type: none;
+    font : 20px Arial;
+}
+.adreslh{
+    list-style-type: none;
+    font : 30px Arial;
+}
+
+adreslijst{
+    list-style-type: none;
+    display: block;
+}
+ul{
+    list-style-type:none;   
+}
+
+.tel{
+    
+    text-align: center;
+    color : white;
+    background-color: #EEA904;
+    width:40%;
+    float : left;
+    margin-bottom : 2%;
+    margin-left: 10%;
+    list-style-type: none !important;
+    padding-left : 5%;
+}
+.mapscontact{
+    float : left;
+    margin-left : 15%;
+    margin-bottom : 2%;
+}
+
+.parkeren{
+    text-align: center;
+    font : 20px Arial;
+    color : white;
+    background-color: #EE7421;
+    width:45%;
+    float : right;
+   margin-top : 2%;
+   margin-bottom : 2%;
+}
+.openingstijden{
+    text-align: center;
+    font : 20px Arial;
+    color : white;
+    background-color: #00A19C;
+    width:45%;
+    float : right;
+   margin-top : 1%;
+   margin-bottom : 2%;
+}
+.activiteitenlijst{
+    margin-top: 2%;
+    list-style-type: none;
+    display: block;
+    margin-bottom: 1%;
+    text-align : left;
+    margin-left : 40%;
+    font : 20px Arial;
+}
+.achl{
+    text-align: center;
+    margin-left: auto;
+    font : 30px Arial;
+}
+
+.fotos{
+    margin: 1% 5% 1% 5%;
+    border : 2px solid #EEA904;
+    height : 180px;
+    width : 320px;
+
+}
+
+.fotoalbum{
+    background-color:#00A19C;
+    width:80%;
+    float: right;
+    margin-bottom: 2%;
+}
+.fototitel{
+    text-align: center;
+    background-color : #EE7421;
+    color : white;
+    font : 30px Arial;
+    clear: both;
+}
+
+.fotoview{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.vernav{
+    padding: 50px;
+    background-color : #EEA904;
+    width: 13%;
+    float: left;
+    position: fixed;
+}
+
+.sponsoren{
+
+    margin-bottom: 2%;
+
+}
+
+.sponsor{
+    display: block;
+    margin:2%;
+    width:43%;
+}
+
+.links{
+    border: 10px solid #EEA904;
+    margin: 1% 0% 1% 2%;
+    float:left;
+    margin-left: 10%;
+}
+.fototekst{
+    clear: both;
+    text-align :center;
+    font : 20px Arial;
+        color : white;
+    background-color: #EEA904;
+}
+
